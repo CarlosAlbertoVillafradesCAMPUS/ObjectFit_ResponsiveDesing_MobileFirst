@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1 style="text-align: center; margin: 0;">Object-Fit</h1>
+    <p style="text-align: center; margin: 10px 0 60px 0;">
+      La propiedad CSS object-fit indica cómo el contenido de un elemento
+      reemplazado, por ejemplo un "img" o "video", debería redimensionarse para
+      ajustarse a su contenedor. Se puede alterar la alineación del contenido
+      del elemento reemplazado utilizando la propiedad object-position.
+    </p>
+    <p>
+      <strong>Object-Fit: Contain</strong>---El contenido reemplazado está
+      dimensionado para mantener su relación de aspecto mientras se ajusta
+      dentro del cuadro de contenido del elemento: su tamaño de objeto concreto
+      se resuelve como una restricción de contenido contra el ancho y la altura
+      utilizados del elemento.
+    </p>
+    <div class="image1">
+      <img src="./Color-morado.jpg" alt="img" />
+    </div>
+    <p>
+      <strong>Object-Fit: Cover</strong>---El contenido reemplazado se
+      dimensiona para mantener su relación de aspecto mientras llena el cuadro
+      de contenido completo del elemento. Si la relación de aspecto del objeto
+      no coincide con la relación de aspecto de su caja, entonces el objeto se
+      recortará para que se ajuste.
+    </p>
+    <div class="image2">
+      <img src="./Color-morado.jpg" alt="img" />
+    </div>
+    <p>
+      <strong>Object-Fit: Fill</strong>---Modifica el tamaño del elemento
+      remplazado para llenar el cuadro de contenido. El objeto completo ocupará
+      todo el espacio de la caja. Si el tamaño del elemento no concuerda con el
+      de su caja, se estirará para llenarlo.
+    </p>
+    <div class="image3">
+      <img src="./Color-morado.jpg" alt="img" />
+    </div>
+    <p>
+      <strong>Object-Fit: Scale-down</strong>---El contenido se dimensiona como
+      si none o contain estuvieran especificados, lo que resultaría en un tamaño
+      de objeto concreto más pequeño.
+    </p>
+    <div class="image4">
+      <img src="./Color-morado.jpg" alt="img" />
+    </div>
+    <p>
+      <strong>Object-Fit: None</strong>--- El contenido reemplazado no se
+      redimensiona.
+    </p>
+    <div class="image5">
+      <img src="./Color-morado.jpg" alt="img" />
+    </div>
+  </body>
+</html>
